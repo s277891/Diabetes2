@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ch_e00587.diabetes2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/your_own_name">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".Diabetes2Found"
+            android:label="@string/title_activity_diabetes2_found" >
+        </activity>
+        <activity
+            android:name=".diabetes_sub_menu"
+            android:label="@string/title_activity_diabetes_sub_menu" >
+        </activity>
+        <activity
+            android:name=".EatHealthy"
+            android:label="@string/title_activity_eat_healthy" >
+        </activity>
+        <activity
+            android:name=".Physicalactivity"
+            android:label="@string/title_activity_physicalactivity" >
+        </activity>
+        <activity
+            android:name=".EatHealthyLink"
+            android:label="@string/title_activity_eat_healthy_link" >
+        </activity>
+        <activity
+            android:name=".stories"
+            android:label="@string/title_activity_stories" >
+        </activity>
+    </application>
+
+</manifest>
